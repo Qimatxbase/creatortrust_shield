@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CreatorTrust Shield Pitch Deck</title>
+  <style>
+    :root {
+      --bg: #07111f;
+      --panel: #0d1b2d;
+      --ink: #eef6ff;
+      --muted: #a9b8cb;
+      --cyan: #39c6f4;
+      --teal: #38e0c2;
+      --purple: #a78bfa;
+      --line: #1f344d;
+      --orange: #fb923c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #030712;
+      color: var(--ink);
+      font-family: Inter, Arial, sans-serif;
+      line-height: 1.35;
+    }
+    .deck {
+      width: 100%;
+    }
+    .slide {
+      min-height: 100vh;
+      padding: 64px 72px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      page-break-after: always;
+      background:
+        radial-gradient(circle at 85% 15%, rgba(57,198,244,0.14), transparent 30%),
+        linear-gradient(135deg, #07111f 0%, #091827 55%, #05101d 100%);
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      color: var(--teal);
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: 68px;
+      line-height: 0.98;
+      margin: 0 0 24px;
+      max-width: 980px;
+    }
+    h2 {
+      font-size: 48px;
+      line-height: 1.05;
+      margin: 0 0 28px;
+      max-width: 980px;
+    }
+    p {
+      color: var(--muted);
+      font-size: 24px;
+      max-width: 940px;
+      margin: 0 0 20px;
+    }
+    .big {
+      color: var(--ink);
+      font-size: 32px;
+      font-weight: 750;
+      max-width: 980px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+      margin-top: 24px;
+    }
+    .grid.three {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .card {
+      background: rgba(13, 27, 45, 0.86);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 24px;
+      min-height: 150px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.22);
+    }
+    .card h3 {
+      color: var(--ink);
+      font-size: 25px;
+      margin: 0 0 12px;
+    }
+    .card p, li {
+      color: #c8d5e6;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 23px;
+    }
+    .metric {
+      color: var(--cyan);
+      font-size: 46px;
+      font-weight: 850;
+      margin-bottom: 6px;
+    }
+    .journey {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 26px;
+    }
+    .journey .card {
+      border-top: 5px solid var(--cyan);
+    }
+    .journey .card:nth-child(2) {
+      border-top-color: var(--teal);
+    }
+    .journey .card:nth-child(3) {
+      border-top-color: var(--purple);
+    }
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 28px;
+      align-items: stretch;
+    }
+    .step {
+      background: rgba(57, 198, 244, 0.09);
+      border: 1px solid rgba(57, 198, 244, 0.34);
+      border-radius: 12px;
+      padding: 18px;
+      min-height: 120px;
+    }
+    .step strong {
+      display: block;
+      color: var(--cyan);
+      font-size: 17px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .step span {
+      color: var(--ink);
+      font-size: 19px;
+      font-weight: 700;
+    }
+    .footer {
+      margin-top: 42px;
+      color: #7d8ea6;
+      font-size: 16px;
+    }
+    .tag {
+      display: inline-block;
+      color: #04111f;
+      background: var(--teal);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-weight: 800;
+      margin: 0 8px 8px 0;
+      font-size: 16px;
+    }
+    @media print {
+      .slide { min-height: 7.5in; }
+      body { background: white; }
+    }
+  </style>
+</head>
+<body>
+  <main class="deck">
+    <section class="slide">
+      <div class="eyebrow">IAG Hackathon Pitch</div>
+      <h1>CreatorTrust Shield</h1>
+      <p class="big">AI deepfake protection and cyber liability support for content creators.</p>
+      <p>Protect the accounts, sponsors, content, face, voice, and reputation creators depend on.</p>
+      <div>
+        <span class="tag">Realise</span>
+        <span class="tag">Explore</span>
+        <span class="tag">Decide</span>
+      </div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Start With The Problem</div>
+      <h2>What if your face sold a scam you never approved?</h2>
+      <p class="big">A fake sponsorship video can damage income, reputation, sponsor trust, privacy, and audience safety.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Creator pain</h3>
+          <p>A hacked or deepfaked creator may not know what is real, what can be proven, or who can help.</p>
+        </div>
+        <div class="card">
+          <h3>Business pain</h3>
+          <p>Sponsorships, ad revenue, audience trust, legal cost, and takedown cost can be affected at the same time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Customer Journey Fit</div>
+      <h2>We focus on Realise, Explore, and Decide</h2>
+      <div class="journey">
+        <div class="card">
+          <h3>Realise</h3>
+          <p>"My account, face, voice, sponsors, and content are assets worth protecting."</p>
+        </div>
+        <div class="card">
+          <h3>Explore</h3>
+          <p>"I need a clear way to check what is authentic, suspicious, or impersonation."</p>
+        </div>
+        <div class="card">
+          <h3>Decide</h3>
+          <p>"I need confidence that I have support if an identity incident happens."</p>
+        </div>
+      </div>
+      <p class="footer">Addresses IAG journey pains: unclear choices, hard-to-understand products, and inconsistent support.</p>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">The Solution</div>
+      <h2>A trusted creator registry plus evidence-backed incident response</h2>
+      <div class="flow">
+        <div class="step"><strong>1</strong><span>Verified creator registry</span></div>
+        <div class="step"><strong>2</strong><span>Original content fingerprints</span></div>
+        <div class="step"><strong>3</strong><span>Simulated monitoring scan</span></div>
+        <div class="step"><strong>4</strong><span>Registry + AI analysis</span></div>
+        <div class="step"><strong>5</strong><span>Incident response actions</span></div>
+      </div>
+      <p class="footer">Responsible claim: we do not promise perfect deepfake detection. We combine AI evidence with a trusted source of truth.</p>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Show The Demo</div>
+      <h2>One complete vertical slice</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Demo path</h3>
+          <ul>
+            <li>Dashboard</li>
+            <li>Trusted registry</li>
+            <li>Register original content</li>
+            <li>Run monitoring scan</li>
+            <li>Analyse fake sponsorship</li>
+            <li>Open incident response</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>What the prototype proves</h3>
+          <ul>
+            <li>Clear source of truth</li>
+            <li>Deterministic suspicious findings</li>
+            <li>Registry evidence separated from simulated AI evidence</li>
+            <li>Actionable response workflow</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Customer Impact</div>
+      <h2>From panic to a clear response path</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Before</h3>
+          <p>"I do not know if this video is provable, how to explain it to a sponsor, or what action to take."</p>
+        </div>
+        <div class="card">
+          <h3>After</h3>
+          <p>"I have a registered source of truth, evidence-backed classification, and guided actions."</p>
+        </div>
+      </div>
+      <p class="big">Value created: faster recovery, stronger sponsor trust, safer digital participation.</p>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Recommendation</div>
+      <h2>Pilot CreatorTrust Shield with digital income earners</h2>
+      <div class="grid three">
+        <div class="card">
+          <h3>Target</h3>
+          <p>Creators, streamers, esports players, influencers, and public figures.</p>
+        </div>
+        <div class="card">
+          <h3>Test</h3>
+          <p>Registry adoption, monitoring value, response completion, and future claim assessment quality.</p>
+        </div>
+        <div class="card">
+          <h3>Why IAG</h3>
+          <p>Cyber risk, customer trust, incident support, and insurance assessment belong together.</p>
+        </div>
+      </div>
+      <p class="footer">Pilot, learn, then scale responsibly.</p>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Iteration</div>
+      <h2>What we improved</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>From broad to focused</h3>
+          <p>We narrowed from generic creator cyber insurance to identity protection and deepfake incident response.</p>
+        </div>
+        <div class="card">
+          <h3>From overclaim to responsible</h3>
+          <p>We kept AI analysis simulated and deterministic, and framed it as evidence support rather than perfect detection.</p>
+        </div>
+        <div class="card">
+          <h3>From concept to demo</h3>
+          <p>The prototype now shows registry, scan, analysis, incident actions, and reset in one reliable flow.</p>
+        </div>
+        <div class="card">
+          <h3>From product to journey</h3>
+          <p>We aligned the pitch to Realise, Explore, and Decide so the value fits IAG's customer journey.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pycache/
+
+.DS_Store
+.streamlit/secrets.toml
+
+.env
+.env.*
+
+screenshots/*.png

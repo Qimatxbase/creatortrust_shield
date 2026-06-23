@@ -1,0 +1,37 @@
+year,tiktok_users_au_millions,estimated_creators_au_millions,creator_market_value_aud_millions,cybercrime_reports,avg_individual_loss_aud,avg_business_loss_aud,risk_type,estimated_creator_loss_aud,affected_group
+2021,7.2,0.55,380,67500,24600,54800,Account hacking,8500,TikTok creators
+2021,7.2,0.55,380,67500,24600,54800,Scam or phishing,6200,Influencers
+2021,7.2,0.55,380,67500,24600,54800,Data breach,11200,Public figures
+2021,7.2,0.55,380,67500,24600,54800,Doxxing,9200,Streamers
+2021,7.2,0.55,380,67500,24600,54800,Impersonation,7200,Esports players
+2021,7.2,0.55,380,67500,24600,54800,Platform downtime,4800,Small creators
+2022,8.4,0.68,520,76000,27800,63400,Account hacking,11800,TikTok creators
+2022,8.4,0.68,520,76000,27800,63400,Scam or phishing,9400,Influencers
+2022,8.4,0.68,520,76000,27800,63400,Data breach,15400,Public figures
+2022,8.4,0.68,520,76000,27800,63400,Doxxing,12600,Streamers
+2022,8.4,0.68,520,76000,27800,63400,Deepfake scam,10100,Esports players
+2022,8.4,0.68,520,76000,27800,63400,Platform downtime,6900,Small creators
+2023,9.6,0.82,710,94000,31000,71000,Account hacking,15600,TikTok creators
+2023,9.6,0.82,710,94000,31000,71000,Scam or phishing,13100,Influencers
+2023,9.6,0.82,710,94000,31000,71000,Data breach,20300,Public figures
+2023,9.6,0.82,710,94000,31000,71000,Doxxing,17100,Streamers
+2023,9.6,0.82,710,94000,31000,71000,Deepfake scam,14600,Esports players
+2023,9.6,0.82,710,94000,31000,71000,Platform downtime,8800,Small creators
+2024,10.7,0.98,930,87000,33000,80300,Account hacking,21100,TikTok creators
+2024,10.7,0.98,930,87000,33000,80300,Scam or phishing,18600,Influencers
+2024,10.7,0.98,930,87000,33000,80300,Data breach,26400,Public figures
+2024,10.7,0.98,930,87000,33000,80300,Doxxing,22900,Streamers
+2024,10.7,0.98,930,87000,33000,80300,Deepfake scam,24800,Esports players
+2024,10.7,0.98,930,87000,33000,80300,Impersonation,19300,Small creators
+2025,11.5,1.15,1180,84700,33000,80850,Account hacking,26800,TikTok creators
+2025,11.5,1.15,1180,84700,33000,80850,Scam or phishing,23600,Influencers
+2025,11.5,1.15,1180,84700,33000,80850,Data breach,32900,Public figures
+2025,11.5,1.15,1180,84700,33000,80850,Doxxing,28700,Streamers
+2025,11.5,1.15,1180,84700,33000,80850,Deepfake scam,34100,Esports players
+2025,11.5,1.15,1180,84700,33000,80850,Platform downtime,14200,Small creators
+2026,12.3,1.32,1450,87200,34500,83500,Account hacking,31800,TikTok creators
+2026,12.3,1.32,1450,87200,34500,83500,Scam or phishing,28100,Influencers
+2026,12.3,1.32,1450,87200,34500,83500,Data breach,38600,Public figures
+2026,12.3,1.32,1450,87200,34500,83500,Doxxing,35200,Streamers
+2026,12.3,1.32,1450,87200,34500,83500,Deepfake scam,42100,Esports players
+2026,12.3,1.32,1450,87200,34500,83500,Impersonation,33600,Small creators
