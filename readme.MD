@@ -44,6 +44,7 @@ The dashboard argues that digital platforms are growing, more Australians are ea
 - `presentation/generate_creatortrust_designer_deck.py` regenerates the designer-style deck.
 - `presentation/creatortrust_shield_pitch_deck_v3_senior.pptx` is the recommended senior-design pitch deck.
 - `presentation/generate_creatortrust_v3_senior_deck.py` regenerates the senior-design deck.
+- `presentation/google_slides_prompts.md` provides page-by-page prompts for recreating the deck in Google Slides or AI slide tools.
 
 ## How To Run
 
