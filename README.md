@@ -38,12 +38,12 @@ The dashboard argues that digital platforms are growing, more Australians are ea
 - `presentation/pitch_deck_plan.md` provides a 3 minute pitch structure, speaker script, and Q&A prep aligned to the IAG Realise, Explore, and Decide journey stages.
 - `presentation/creatortrust_pitch_script.md` provides the refined CreatorTrust Shield pitch script.
 - `presentation/creatortrust_pitch_slides.html` provides a standalone slide deck that can be opened in a browser or printed to PDF.
-- `presentation/creatortrust_shield_pitch_deck.pptx` provides an editable PowerPoint deck generated from the refined pitch.
-- `presentation/generate_creatortrust_deck.py` regenerates the PowerPoint deck.
-- `presentation/creatortrust_shield_pitch_deck_v2_designer.pptx` provides a more polished designer-style PowerPoint deck.
-- `presentation/generate_creatortrust_designer_deck.py` regenerates the designer-style deck.
-- `presentation/creatortrust_shield_pitch_deck_v3_senior.pptx` is the recommended senior-design pitch deck.
-- `presentation/generate_creatortrust_v3_senior_deck.py` regenerates the senior-design deck.
+- `docs/history/presentation/creatortrust_pitch_classic.pptx` provides an editable PowerPoint deck generated from the refined pitch.
+- `docs/history/presentation/generate_pitch_classic.py` regenerates the PowerPoint deck.
+- `docs/history/presentation/creatortrust_pitch_designer.pptx` provides a more polished designer-style PowerPoint deck.
+- `docs/history/presentation/generate_pitch_designer.py` regenerates the designer-style deck.
+- `presentation/creatortrust_pitch_deck.pptx` is the recommended senior-design pitch deck.
+- `presentation/generate_pitch_deck.py` regenerates the senior-design deck.
 - `presentation/google_slides_prompts.md` provides page-by-page prompts for recreating the deck in Google Slides or AI slide tools.
 
 ## How To Run

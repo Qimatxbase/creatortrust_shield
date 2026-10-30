@@ -7,7 +7,7 @@ from pptx.enum.text import PP_ALIGN
 from pptx.util import Inches, Pt
 
 
-OUT_PATH = Path(__file__).with_name("creatortrust_shield_pitch_deck.pptx")
+OUT_PATH = Path(__file__).with_name("creatortrust_pitch_classic.pptx")
 
 NAVY = RGBColor(7, 17, 31)
 PANEL = RGBColor(13, 27, 45)

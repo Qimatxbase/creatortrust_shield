@@ -7,7 +7,7 @@ from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 from pptx.util import Inches, Pt
 
 
-OUT_PATH = Path(__file__).with_name("creatortrust_shield_pitch_deck_v2_designer.pptx")
+OUT_PATH = Path(__file__).with_name("creatortrust_pitch_designer.pptx")
 
 BG = RGBColor(4, 10, 20)
 BG_2 = RGBColor(7, 17, 31)

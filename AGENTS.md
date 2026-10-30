@@ -60,7 +60,7 @@ Always be clear that the hackathon prototype uses simulated or deterministic com
 - Keep generator scripts in `presentation/` so decks are reproducible.
 - If creating visual-only poster/art assets, create `.png` or `.pdf` plus a short design philosophy `.md`.
 - Do not overwrite existing decks unless explicitly requested; create a clear versioned filename.
-- Update `readme.MD` when adding major presentation artifacts.
+- Update `README.md` when adding major presentation artifacts.
 
 ## Quality Bar
 
